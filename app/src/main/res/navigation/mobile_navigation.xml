@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.testing.ui.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_event"
+        android:name="com.example.testing.ui.event.EventFragment"
+        android:label="@string/event"
+        tools:layout="@layout/fragment_event" >
+        <action
+            android:id="@+id/action_nav_event_to_nav_post"
+            app:destination="@id/nav_post" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.testing.ui.about.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/applicationStatus"
+        android:name="com.example.testing.ApplicationStatus"
+        android:label="fragment_application_status"
+        tools:layout="@layout/fragment_application_status" >
+        <action
+            android:id="@+id/action_applicationStatus_to_loginPage"
+            app:destination="@id/loginPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_applyBenefit"
+        android:name="com.example.testing.ui.applybenefit.ApplyBenefitFragment"
+        android:label="fragment_apply_benefit"
+        tools:layout="@layout/fragment_apply_benefit" >
+        <action
+            android:id="@+id/action_applyBenefitFragment_to_applicationStatus"
+            app:destination="@id/applicationStatus" />
+        <action
+            android:id="@+id/action_applyBenefitFragment_to_benefitsApplication"
+            app:destination="@id/benefitsApplication" />
+    </fragment>
+    <fragment
+        android:id="@+id/benefitsApplication"
+        android:name="com.example.testing.BenefitsApplication"
+        android:label="fragment_benefits_application"
+        tools:layout="@layout/fragment_benefits_application" >
+        <action
+            android:id="@+id/action_benefitsApplication_to_applyBenefitFragment"
+            app:destination="@id/nav_applyBenefit" />
+        <action
+            android:id="@+id/action_benefitsApplication_to_loginPage"
+            app:destination="@id/loginPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_post"
+        android:name="com.example.testing.ui.post.PostFragment"
+        android:label="fragment_post"
+        tools:layout="@layout/fragment_post" >
+        <action
+            android:id="@+id/action_nav_post_to_nav_event"
+            app:destination="@id/nav_event" />
+    </fragment>
+    <activity
+        android:id="@+id/nav_location"
+        android:name="com.example.testing.Location"
+        android:label="activity_maps"
+        tools:layout="@layout/activity_maps" />
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.testing.ui.my_account.MyAccountFragment"
+        android:label="fragment_my_account"
+        tools:layout="@layout/fragment_my_account" />
+    <activity
+        android:id="@+id/loginPage"
+        android:name="com.example.testing.ui.user.LoginPage"
+        android:label="activity_login_page"
+        tools:layout="@layout/activity_login_page" />
+</navigation>

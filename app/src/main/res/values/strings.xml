@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">AngelCareApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    // navigation menu
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="post">Create Post</string>
+    <string name="apply_benefit">Apply Benefit</string>
+    <string name="account">My Account</string>
+    <string name="event">View Event</string>
+    <string name="location">Location</string>
+
+
+    //user module
+    <string name="welcome">Welcome Back</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="forgetPassword">Forget Password?</string>
+    <string name="email">Email Address</string>
+    <string name="newPassword">New Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="confirmReset">Confirm Reset</string>
+    <string name="signUp">Sign Up</string>
+    <string name="phone">Phone Number</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="okuId">OKU ID</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="edit">EDIT</string>
+    <string name="address">Home Address</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    //event posting
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="create_post">Posting Event</string>
+    <string name="type_something">Type Something....</string>
+    <string name="add_posting_photo">Add Photo</string>
+    <string name="add_photo_button">Photo Button</string>
+    <string name="event_post">Post</string>
+    <string name="add_posting_location">Add Location</string>
+    <string name="desc">Description</string>
+    <string name="event_title">Event Title</string>
+    <string name="event_date">dd/mm/yyyy</string>
+    <string name="organization">Organization</string>
+    <string name="event_date_title">Event Date</string>
+    <string name="event_link">Event Link</string>
+    <string name="event_paste_link">Paste Link Here</string>
+
+
+    <string name="share">Share</string>
+    <string name="home_link">Link:</string>
+
+    //Apply Benefit
+    <string name="btnApplyBenefit">Apply for Disability Benefits</string>
+    <string name="btnCheck">Check Application Status</string>
+    <string name="ApplicationContent">
+        Agmo Studio offers an online disability application you can complete at your convenience. Apply from the comfort of your home or any location at a time most convenient for you. You do not need to drive to your local Agmo Studio office or wait for an appointment with a Agmo Studio representative.
+    </string>
+    <string name="info1">How do I apply for benefits?</string>
+    <string name="extend1">Here is what you need to do to apply for benefits online:
+
+        \n\n- Print and review the Adult Disability Checklist. It will help you gather the information you need to complete the application.
+
+        \n\n- Complete the Disability Benefit Application.
+
+        \n\n- Complete the Medical Release Form
+    </string>
+    <string name="info2">What information do I need to apply for benefits?</string>
+    <string name="extend2">We suggest that you have the following information at hand. It will make completing the application much easier.
+        \n\n<b>Information About You</b>
+        \n- Your date and place of birth and Social Security number
+        \n- The name, Social Security number and date of birth or age of your current spouse and any former spouse. You should also know the dates and places of marriage and dates of divorce or death (if appropriate)
+        \n- Names and dates of birth of your minor children
+        \n- Your bank or other financial institution\'s Routing Transit Number [more info] and the account number, if you want the benefits electronically deposited
+        \n<b>Information About Your Medical Condition</b>
+        \n- Name, address and phone number of someone we can contact who knows about your medical conditions and can help with your application
+        \n- Detailed information about your medical illnesses, injuries or conditions:
+        \n        1) Detailed information about your medical illnesses, injuries or conditions:
+        \n        2) Names of medicines you are taking and who prescribed them; and
+Names and dates of medical tests you have had and who sent you for them.
+    </string>
+    <string name="info3">What other ways can i apply?</string>
+    <string name="extend3">You can also apply:
+        \n ~ By phone - Call us at <b>1-800-772-1213</b> from 7 a.m. to 7 p.m. Monday through Friday. If you are deaf or hard of hearing, you can call us at TTY <b>1-800-325-0778</b>.
+        \n ~ In person - Visit your local Social Security office. (Call first to make an appointment.)
+    </string>
+
+    // application form
+    <string name="appForm">Application Form</string>
+    <string name="formDesc">Submit your application form to us.</string>
+    <string name="hintName">Enter Full Name</string>
+    <string name="hintOKUid">Enter OKU Id</string>
+    <string name="hintPhoneNo">Enter Phone No</string>
+    <string-array name="applyType">
+        <item>Supplemental Security Income (SSI)</item>
+        <item>Social Security Disability Insurance (SSDI)</item>
+    </string-array>
+
+    <string name="logout">LOG OUT</string>
+
+    <string name="aboutUs">
+        "Our team tends to provide a platform that can make connection between OKU and public."
+    </string>
+    <string name="aim">Aim</string>
+    <string name="founder">-MingHan, YongJie, ZhiHao-</string>
+    <string name="topNo">Angel Care</string>
+    <string name="phoneNo">+60 10-7938002</string>
+    <string name="scrollform">scrollForm</string>
+
+
+    //map
+    <string name="google_maps_key" templateMergeSyrategy="preserve" translatable="false">AIzaSyANCL4LK4izXgKEPueLbiyJ4gqSx4sBoqE</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.applybenefit.ApplyBenefitFragment">
+
+
+    <ScrollView
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginRight="-10dp"
+        android:contentDescription="@string/scrollform"
+        android:padding="0dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="349dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="16dp"
+                android:background="#3F51B5"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/info1"
+                    android:textColor="#FFFFFF" />
+
+                <ImageButton
+                    android:id="@+id/img1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#3F51B5"
+                    android:src="@drawable/ic_baseline_add_24"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,ImageContrastCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="349dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="12dp"
+                android:background="#3F51B5"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tfInfo1">
+
+                <TextView
+                    android:id="@+id/tvInfo2"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/info2"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+                <ImageButton
+                    android:id="@+id/img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#3F51B5"
+                    android:src="@drawable/ic_baseline_add_24"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="349dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="12dp"
+                android:background="#3F51B5"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tfInfo2">
+
+                <TextView
+                    android:id="@+id/tvInfo3"
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/info3"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+                <ImageButton
+                    android:id="@+id/img3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#3F51B5"
+                    android:src="@drawable/ic_baseline_add_24" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tfInfo1"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="10sp"
+                android:text="@string/extend1"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
+                app:layout_constraintStart_toStartOf="@+id/linearLayout3"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tfInfo2"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="10sp"
+                android:text="@string/extend2"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout4"
+                app:layout_constraintStart_toStartOf="@+id/linearLayout4"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tfInfo3"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="10sp"
+                android:text="@string/extend3"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout5"
+                app:layout_constraintStart_toStartOf="@+id/linearLayout5"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="360dp"
+                android:layout_height="154dp"
+                android:layout_marginTop="28dp"
+                android:text="@string/ApplicationContent"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="425dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="-15dp"
+                android:layout_marginTop="-15dp"
+                android:layout_marginRight="-15dp"
+                android:background="#BFB7B7"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="vertical"
+                android:padding="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/tvSubTitle"
+                    android:layout_width="340dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="-10dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/btnApplyBenefit"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="349dp"
+                android:layout_height="124dp"
+                android:gravity="center_horizontal|center_vertical"
+                app:layout_constraintBottom_toBottomOf="@id/linearLayout7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tfInfo3">
+
+                <Button
+                    android:id="@+id/btnApply"
+                    android:layout_width="158dp"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="@string/btnApplyBenefit"
+                    android:textAlignment="gravity"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"
+                    app:cornerRadius="50dp" />
+
+                <Button
+                    android:id="@+id/btnCheck"
+                    android:layout_width="158dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/btnCheck"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"
+                    app:cornerRadius="50dp" />
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
